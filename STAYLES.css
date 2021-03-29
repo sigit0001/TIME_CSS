@@ -1,0 +1,231 @@
+body{
+    background-color:   #ff4655;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img-background{
+    width: 100%;
+    height: 600px;
+}
+
+.playnow{
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.playnow a{
+    color: #ff4655;
+    text-decoration: none;
+}
+
+.bagian-tengah p{
+    font-size: 30px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    margin: 15px;
+}
+
+.bagian-tengah{
+    background-color: #0f1923;
+    height: 60vw;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.bagian-tanggalWaktu{
+    text-align: center;
+}
+
+.coba{
+    background-color: white;
+    height: 23%;
+    width: 100%;
+}
+
+.btn{
+    background-color: #ff4655;
+    color: #0f1923;
+    padding: 50px;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: bold;
+    border: none;
+}
+
+#clock{
+    font-size: 6vw;
+    color: #0f1923;
+    font-family: 'Lato', sans-serif;
+}
+
+#month-day{
+    font-size: 7vw;
+    font-weight: bold;
+    color:  #0f1923;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ipad */
+
+@media(min-device-width: 481px) and (max-device-width:1024px){
+
+    body{
+        background-color:   #ff4655;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-background{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .playnow{
+        font-size: 8vw;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .playnow a{
+        color: #ff4655;
+        text-decoration: none;
+    }
+    
+    .bagian-tengah p{
+        font-size: 30px;
+        color:white;
+        font-family: 'Lato', sans-serif;
+        margin: 15px;
+    }
+    
+    .bagian-tengah{
+        background-color: #0f1923;
+        height: 60vw;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    
+    .bagian-tanggalWaktu{
+        text-align: start;
+        margin: 15px;
+    }
+    
+    .coba{
+        background-color: white;
+        height: 23%;
+        width: 100%;
+    }
+    
+    .btn{
+        background-color: #ff4655;
+        padding: 50px;
+        width: 100%;
+        font-size: 5rem;
+        font-weight: bold;
+        border: none;
+    }
+    
+    #clock{
+        font-size: 5vw;
+        color: #0f1923;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #month-day{
+        font-size: 6vw;
+        font-weight: bold;
+        color:  #0f1923;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+/* buat PC ke atas */
+@media(min-width:1025px){
+
+    body{
+        background-color:   #ff4655;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-background{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .playnow{
+        font-size: 8vw;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .playnow a{
+        color: #ff4655;
+        text-decoration: none;
+    }
+    
+    .bagian-tengah p{
+        font-size: 30px;
+        color:white;
+        font-family: 'Lato', sans-serif;
+        margin: 15px;
+    }
+    
+    .bagian-tengah{
+        background-color: #0f1923;
+        height: 60vw;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    
+    .bagian-tanggalWaktu{
+        text-align: start;
+        margin: 15px;
+    }
+    
+    .coba{
+        background-color: white;
+        height: 23%;
+        width: 100%;
+    }
+    
+    .btn{
+        background-color: #ff4655;
+        padding: 50px;
+        width: 100%;
+        font-size: 5rem;
+        font-weight: bold;
+        border: none;
+    }
+    
+    #clock{
+        font-size: 3vw;
+        color: #0f1923;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #month-day{
+        font-size: 4vw;
+        font-weight: bold;
+        color:  #0f1923;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
